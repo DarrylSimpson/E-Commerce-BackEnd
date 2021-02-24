@@ -1,19 +1,40 @@
-# E-Commerce-BackEnd
+# E-commerce Back End Code
 
-# User Story
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
+![badge](https://img.shields.io/badge/JavaScript-100%25-blue)
 
-# Acceptance
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+  ## Description
+  
+  A functional framework for an e-commerce website. Tracking categories, products, and tags for products across categories.
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+
+  ## Installation
+        
+  Download initial files, install all required packages with the npm install command. The package.json should install the required 
+  Express.js, None.js, and sequelize with mysql2.
+  
+  ## Usage
+  
+  Watch the below video to see the application running live.
+  
+  [Video Link 1](https://drive.google.com/file/d/1NTXXRJpbClC85Ac6tbN4yJ1PHpKZapIe/view?usp=sharing)
+
+
+  [Video Link 2](https://drive.google.com/file/d/1YdXXEg8CkPSkWfR7rm0LBzS9lLdxZSjO/view?usp=sharing)
+
+  ## Credits
+    
+  Contributor: Darryl Simpson
+
+  GitHub: https://github.com/DarrylSimpson
+      
+  ## License
+  MIT
+  <br>
+  [See MIT License](https://choosealicense.com/licenses/mit)
+
+    
